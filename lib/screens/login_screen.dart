@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../widgets/image_placeholder.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -14,38 +13,30 @@ class LoginScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              const ImagePlaceholder(), // Menggunakan widget khusus untuk gambar
+              Image.asset(
+                'assets/bitcoin.png', // Ganti dengan path gambar Anda
+                height: 100,
+              ),
               const SizedBox(height: 20),
               const Text(
                 '"Saya Arlafelda Meindra Widayat"',
-                textAlign: TextAlign.center,
                 style: TextStyle(fontStyle: FontStyle.italic),
               ),
-              const SizedBox(height: 20),
-              // Garis Bawah
-              Container(
-                width: 100,
-                height: 5,
-                //color: Colors.black,
+              const SizedBox(height: 40),
+              // Tombol Sign In
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/sign_in'); // Navigasi ke Sign In
+                },
+                child: const Text('Sign In'),
               ),
               const SizedBox(height: 20),
-              // Tombol Sign In dan Sign Up
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: <Widget>[
-                  ElevatedButton(
-                    onPressed: () {
-                      // Logika untuk Sign In
-                    },
-                    child: const Text('Sign In'),
-                  ),
-                  ElevatedButton(
-                    onPressed: () {
-                      // Logika untuk Sign Up
-                    },
-                    child: const Text('Sign Up'),
-                  ),
-                ],
+              // Tombol Sign Up
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/sign_up'); // Navigasi ke Sign Up
+                },
+                child: const Text('Sign Up'),
               ),
             ],
           ),

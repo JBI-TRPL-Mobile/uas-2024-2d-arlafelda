@@ -1,17 +1,13 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/eSYf9ZVB)
-# template_project
+UAS Praktikum Mobaile Development
 
-A new Flutter project.
+Nama    : Arlafelda Meindra Widayat
+NIM     : 362358302169
+Kelas   : 2D TRPL
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![login_screen.dart](image.png)
+![SignUp_screen.dart](image-2.png)
+![SignIn_screen.dart](image-3.png)
+![welcome_screen.dart](image-4.png)
+![messages_screen.dart](image-5.png)
+![Profile_screen.dart](image-6.png)
+![logout](image-7.png)
